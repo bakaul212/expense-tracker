@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 📊 Advanced Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An advanced, responsive, and interactive full-feature personal finance manager built with **React** and **Recharts**. This application helps users track their daily income and expenses, set monthly budget limits, analyze their spending via dynamic visual charts, and easily search or filter through their financial history.
 
-## Available Scripts
+🔗 **Live Demo Link:** [Advanced Expense Tracker on Netlify](https://inspiring-zabaione-83aa15.netlify.app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **💰 Personal Balance Board:** Real-time summary showing Net Balance, Total Income, and Total Expense.
+- **🎯 Monthly Budget Setter & Alerts:** Users can set a monthly budget limit. The app displays a prominent visual warning if expenses exceed the budget.
+- **📊 Interactive Donut Chart:** A modern visual breakdown of expenses grouped by categories (*Food, Rent, Shopping, Bills, Others*) with dynamic tooltips.
+- **🔍 Quick Search & Category Filter:** Effortlessly search transactions by text description or filter them by dynamic categories/types.
+- **📅 Smart Time Stamps:** Every single transaction automatically logs the local date and precise time of creation.
+- **💾 Persistent Storage:** Integrates with browser `LocalStorage` so users never lose their data on a page refresh.
+- **🌙 Premium Dark Theme:** A clean, modern UI optimized for low-light environments and a premium visual aesthetic.
+- **🗑️ Safe Management:** Delete individual records or clear the entire history with a single click.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **React.js** (Functional Components, Hooks: `useState`, `useEffect`)
+* **Recharts** (For rendering the dynamic data visualization SVG charts)
+* **Vanilla CSS / Inline Styling** (Custom responsive dark theme architecture)
+* **LocalStorage API** (For client-side data persistence)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Make sure you have **Node.js** and **npm** installed on your system.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation & Local Run
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone or download this repository:
+   ```bash
+   git clone <your-github-repository-link>
